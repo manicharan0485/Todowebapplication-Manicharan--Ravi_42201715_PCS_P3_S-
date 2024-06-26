@@ -1,0 +1,130 @@
+/* ---------------------------------Register Page CSS---------------------- */
+.main_container{
+    box-shadow: 1px 2px 8px rgba(47, 47, 47, 0.907);
+}
+.registerInput{
+    outline: none;
+    transition: 0.3s ease-in-out;
+    background:rgb(210, 209, 208);
+    border: 1px solid lightgray;
+    &:hover{
+        box-shadow: 0px 1px 3px rgba(30, 143, 255, 0.821);
+    }
+}
+
+.btn{
+    background-color: rgb(133, 192, 252);
+    font-weight: bold;
+    color: black;
+    transition: 0.5s ease-in-out;
+    box-shadow: 1px 3px 10px gray;
+}
+.btn:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+/* --------------------------------navbar---------------------------------- */
+.links{
+    border-radius: 5px;
+    box-shadow: 1px 2px 6px rgb(33, 32, 32);
+    color: wheat;
+}
+/* -----------------------------Home Page CSS ------------------------------------ */
+.custom_text_shadow{
+    text-shadow: 1px 2px 2px rgb(113, 113, 113);
+}
+.dropShadow{
+    filter: drop-shadow(10px 7px 10px rgba(255, 166, 0, 0.579));
+}
+.parashadow{
+    box-shadow: 1px 1px 10px rgba(48, 45, 45, 0.844);
+    padding: 80px 40px 60px 50px;
+    border-radius: 58%;
+}
+.parashadow1{
+    box-shadow: 1px 1px 10px rgba(48, 45, 45, 0.844);
+    padding: 40px 30px 40px 40px;
+    border-radius: 58%;
+}
+.task_Shadow{
+    box-shadow: 1px 1px 10px rgba(48, 45, 45, 0.844);
+    border-radius: 4px;
+}
+.checkbox1{
+    background-color: chocolate;
+}
+/* -----------------------------------modal create task--------------------------- */
+.CreateNote{
+    /* width: 24rem; */
+    margin: 3rem auto;
+    box-shadow: 1px 1px 10px rgba(48, 45, 45, 0.844);
+    border-radius: 0.1rem;
+    padding: 1rem;
+    text-align: left;
+    box-sizing: border-box;
+    
+}
+.form{
+    position: relative;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    color: teal;
+    &:hover{
+        box-shadow: 1px 1px 3px dodgerblue;
+    }
+}
+
+.NoteText{
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+    color: teal;
+}
+.AddBtn{
+    box-shadow: 1px 2px 4px rgb(0, 0, 0);
+    transition: 0.5s ease-in-out;
+}
+
+/* -----------------------------------------Remaining Tasks page CSS------------------------- */
+.card{
+    margin: 1rem auto;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px rgba(39, 36, 36, 0.844);
+}
+.deleteIcon{
+    border: none;
+    font-size: 1.6rem;
+    padding: 3px 0px ;
+    outline: none;
+    color: rgb(135, 130, 126);
+    &:hover{
+        color: rgb(247, 108, 108);
+    }
+}
+.ClearAllBtn{
+    color: white;
+    transition: 0.7s ease-in-out;
+
+    &:hover{
+        background-color: darkorchid;
+    }
+}
+
+
+/* ====================================new codes pages css======================= */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000; /* Ensure navbar stays on top */
+}
